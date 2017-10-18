@@ -4,6 +4,8 @@
 
 Simple project to serve as guidance for uploading files using node.js, express.js, multer and mongodb
 
+![Alt Text](https://github.com/barrancocarlos/multer-express.js/blob/master/public/images/multer-capture.jpg)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
