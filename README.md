@@ -1,5 +1,7 @@
 # Multer / Express.js
 
+![Alt Text](https://github.com/barrancocarlos/multer-express.js/blob/master/public/images/node.jpg)
+
 Simple project to serve as guidance for uploading files using node.js, express.js, multer and mongodb
 
 ## Getting Started
