@@ -2,7 +2,9 @@
 
 ![Alt Text](https://github.com/barrancocarlos/multer-express.js/blob/master/public/images/node.jpg)
 
-Simple project to serve as guidance for uploading files using node.js, express.js, multer and mongodb
+Simple project to serve as guidance for uploading files using node.js, express.js, multer and mongodb.
+
+You can use the form to upload profiles with a picture. You can create, read, update and delete the profiles.
 
 ![Alt Text](https://github.com/barrancocarlos/multer-express.js/blob/master/public/images/multer-capture.jpg)
 
@@ -36,4 +38,5 @@ $ node server.js
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
+The images used are in the public domain.
