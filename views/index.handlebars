@@ -8,7 +8,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-6">
-      <form  method="post" enctype="multipart/form-data" action="/api" >
+      <form method="post" enctype="multipart/form-data" action="/api">
         <div class="form-group">
           <label for="title">Title</label>
           <input type="text" class="form-control" name="title" placeholder="Enter title">
@@ -28,8 +28,8 @@
 </div>
 
 <div class="container main-cont">
-    <div class="row">
-      {{#if profile}}
+  <div class="row">
+    {{#if profile}}
       {{#each profile}}
         <div class="col-4">
           <div class="card">
@@ -37,13 +37,12 @@
             <div class="card-body">
               <h4 class="card-title">{{title}}</h4>
               <p class="card-text">{{description}}</p>
-              <form action="/api/{{this.id }}?_method=DELETE" method="POST" class="del-but" >
-                    <button type="submit" class="btn btn-outline-danger">Delete</button>
+              <form action="/api/{{this.id }}?_method=DELETE" method="POST" class="del-but">
+                <button type="submit" class="btn btn-outline-danger">Delete</button>
               </form>
-                <a href="/{{this.id }}"><button class="btn btn-outline-info">Edit</button></a>
-
+              <a href="/{{this.id }}"><button class="btn btn-outline-info">Edit</button></a>
             </div>
-        </div>
+          </div>
         </div>
 
       {{/each}}
