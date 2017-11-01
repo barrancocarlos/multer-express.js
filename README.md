@@ -34,6 +34,8 @@ $ npm install
 
 # Run the app
 $ node server.js
+
+# App will run on http://localhost:3000
 ```
 
 ## License

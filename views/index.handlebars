@@ -1,13 +1,13 @@
 <div class="container">
-  <div class="jumbotron">
-    <h1 class="display-3">Multer Tutorial</h1>
-    <p class="lead">Upload files using Multer, Express.js and Mongodb</p>
-  </div>
+    <div class="jumbotron">
+      <h1 class="display-3">Multer Tutorial</h1>
+      <p class="lead">Upload files using Multer, Express.js and Mongodb</p>
+    </div>
 </div>
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-6">
+    <div class="col col-md-6">
       <form method="post" enctype="multipart/form-data" action="/api">
         <div class="form-group">
           <label for="title">Title</label>
@@ -31,7 +31,7 @@
   <div class="row">
     {{#if profile}}
       {{#each profile}}
-        <div class="col-4">
+        <div class="col-md-4">
           <div class="card">
             <img class="card-img-top custom-img" src="/uploads/{{photo}}" alt="Card image cap">
             <div class="card-body">
@@ -43,6 +43,7 @@
               <a href="/{{this.id }}"><button class="btn btn-outline-info">Edit</button></a>
             </div>
           </div>
+          <div class="sep"></div>
         </div>
 
       {{/each}}

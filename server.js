@@ -7,6 +7,8 @@
     var methodOverride = require('method-override'); // simulate DELETE and PUT (express4)
     var exphbs = require('express-handlebars'); // template engine
     var multer = require('multer'); // file upload
+    var favicon = require('serve-favicon'); // favicon
+    var path = require('path');
 
 // database connect =================
 require('./config/database');
@@ -20,6 +22,7 @@ require('./config/database');
     app.engine('handlebars', exphbs({defaultLayout: 'main'})); // template engine base file
     app.set('view engine', 'handlebars'); // template engine
     app.use(express.static(__dirname + '/public')); //static assets
+    app.use(favicon(path.join(__dirname,'public','images','favicon.jpg')));
 
 
 // routes =========================
