@@ -7,7 +7,7 @@
     var methodOverride = require('method-override'); // simulate DELETE and PUT (express4)
     var exphbs = require('express-handlebars'); // template engine
     var multer = require('multer'); // file upload
-    var favicon = require('serve-favicon'); // favicon
+    var favicon = require('serve-favicon'); // favicon 
     var path = require('path');
 
 // database connect =================
